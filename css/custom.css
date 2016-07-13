@@ -1,0 +1,217 @@
+/* your styles go here */
+.navbar-brand {
+   height: 95px;     
+}
+.navbar-nav {
+    margin: 25px 0 0;
+}
+#back-top {
+    bottom: 40px;
+    position: fixed;
+    right: 50px;
+    z-index: 1000;
+}
+#back-top a {
+    background: #a9a9b1 none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font: 11px/100% Arial,Helvetica,sans-serif;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease 0s;
+    width: 60px;
+}
+#back-top a:hover {
+    background: #fed136 none repeat scroll 0 0;
+}
+#back-top i {
+    font-size: 28px;
+    margin-top: 15px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #back-top {
+      bottom: 10px;
+      position: fixed;
+      right: 30px;
+  }
+  #back-top a {
+      height: 40px;
+      width: 40px;
+  }
+  #back-top i {
+      font-size: 20px;
+      margin-top: 7px;
+  }
+}
+
+
+.owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #23ad21 none repeat scroll 0 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #d6d6d6 none repeat scroll 0 0;
+    border-radius: 0;
+    display: block;
+    height: 5px;
+    margin: 15px 7px 0;
+    transition: opacity 200ms ease 0s;
+    width: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #23ad21 none repeat scroll 0 0;
+}
+
+.partner-logo {
+    display: inline-block;
+    /*height: 80px;*/
+    text-align: center;
+}
+
+.mtop5pc{
+  margin-top: 5%;
+}
+
+.panel-body {
+    background: #ddd none repeat scroll 0 0;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+#services .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+}
+#services .portfolio-item .portfolio-link {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+}
+#services .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(254, 209, 54, 0.9) none repeat scroll 0 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+#services .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    color: white;
+    font-size: 20px;
+    height: 20px;
+    margin-top: -12px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+#services .portfolio-item .portfolio-caption {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 25px;
+    text-align: center;
+}
+#services .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+#services .portfolio-item .portfolio-caption p {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+#services * {
+    z-index: 2;
+}
+@media (min-width: 767px) {
+#services .portfolio-item {
+    margin: 0 0 30px;
+}
+}
+
+.portfolio-modal .modal-content {
+    background-clip: border-box;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+    background-color: transparent;
+    cursor: pointer;
+    height: 75px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 75px;
+}
+.portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+    background-color: #222222;
+    height: 75px;
+    margin-left: 35px;
+    transform: rotate(45deg);
+    width: 1px;
+    z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+    background-color: #222222;
+    height: 75px;
+    transform: rotate(90deg);
+    width: 1px;
+    z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+.btn-primary {
+    background-color: #fed136;
+    border-color: #fed136;
+    color: #ffffff;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mbot25 {
+    margin-bottom: 25px;
+}
